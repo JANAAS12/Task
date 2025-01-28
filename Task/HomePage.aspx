@@ -13,7 +13,6 @@
     <form id="form1" runat="server">
         <div>
 
-
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -72,7 +71,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-              
+               
 </div>
         </div>
     </form>
