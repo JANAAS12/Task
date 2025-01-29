@@ -25,6 +25,17 @@ namespace Task
                 {
                     result.Text = "login successfully";
                     result.Visible = true;
+                    string loginuserfile = Server.MapPath("loginuser.txt");
+                    if (!File.Exists(loginuserfile))
+                    {
+                        File.Create(loginuserfile);
+
+                    }
+                    using(StreamWriter sw =new StreamWriter(loginuserfile))
+                    {
+                        sw.WriteLine($"{email.Text}");
+                    }
+
                     Response.Redirect("CardsPage.aspx");
 
                 }

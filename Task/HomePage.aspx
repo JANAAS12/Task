@@ -46,7 +46,7 @@
      
        <asp:Button ID="SignUP" runat="server" Text="SignUp" onClick="SignUP_Click" />
         <asp:Button ID="Login" runat="server" Text="Login" OnClick="Login_Click" />
-
+         
     
     </div>
   </div>
